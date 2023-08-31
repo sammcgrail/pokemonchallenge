@@ -25,7 +25,7 @@ const program = async () => {
     console.log(
       `✨ ${
         pokemon.name.charAt(0).toUpperCase() + pokemon.name.slice(1)
-      } ✨ (Height: ${pokemon.height} decimetres)`
+      } ✨ (Height: ${pokemon.height})`
     );
   }
 };
